@@ -1,0 +1,225 @@
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 37.5px;
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+.header {
+  height: 2.1333rem;
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+  font-size: 0.9333rem;
+  line-height: 2.1333rem;
+  color: #1c1c1c;
+}
+.header,
+.wrap {
+  background-color: white;
+}
+.wrap {
+  padding-bottom: 1.1467rem;
+}
+a {
+  text-decoration: none;
+  color: #707070;
+}
+.nav {
+  width: 100%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.6rem;
+}
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0.5333rem;
+}
+.nav a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav a img {
+  width: 3.7067rem;
+  height: 3.7067rem;
+}
+.nav a span {
+  font-size: 0.6667rem;
+}
+.go {
+  margin: 0 0.2667rem 0 0.48rem;
+}
+.content {
+  padding: 1.0667rem 0.64rem;
+  background-color: #fff;
+  margin-top: 0.2667rem;
+}
+.content .cont-hd {
+  display: flex;
+  justify-content: space-between;
+  height: 1.1467rem;
+  line-height: 1.1467rem;
+}
+.content .cont-hd .left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .cont-hd img {
+  height: 1.0933rem;
+  width: 1.0933rem;
+}
+.content .cont-hd h4 {
+  margin-left: 0.2667rem;
+  font-size: 0.7467rem;
+}
+.content .cont-hd a {
+  color: #999999;
+  font-size: 0.64rem;
+}
+.focus-get-job {
+  position: relative;
+  margin-top: 0.9067rem;
+}
+.focus-get-job .swiper-container {
+  height: 100%;
+  width: 14.4rem;
+}
+.focus-get-job .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.6;
+}
+.focus-get-job .swiper-slide a {
+  width: 9.0133rem !important;
+  height: 10.0267rem !important;
+}
+.focus-get-job .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+}
+.focus-get-job .swiper-slide p {
+  width: 9.0133rem;
+  margin-top: 0.64rem;
+  font-size: 0.6667rem;
+  color: #333;
+}
+.focus-get-job .swiper-slide-active,
+.focus-get-job .swiper-slide-duplicate-active {
+  transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.focus-get-job .swiper-buuton {
+  color: #1c1c1c;
+}
+.study-con {
+  margin-bottom: 3.7333rem;
+}
+.study {
+  overflow: hidden;
+}
+.study .mySwiper {
+  padding: 0.2667rem;
+}
+.study .swiper {
+  width: 100%;
+  height: 100%;
+}
+.study .swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: #fff;
+  width: 7.7333rem;
+  height: 9.0667rem;
+  background-color: #fff;
+  border-radius: 0.2667rem;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: start;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: start;
+  align-items: start;
+}
+.study .swiper-slide h5 {
+  font-size: 0.7467rem;
+  font-weight: 400;
+  padding: 0.64rem 0 0.6667rem 0.2667rem;
+}
+.study .swiper-slide p {
+  padding-left: 0.4rem;
+  font-size: 0.6133rem;
+}
+.study .swiper-slide span {
+  color: #ff4400;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  width: 100%;
+  height: 2.6667rem;
+  padding: 0.5333rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.footer .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .item img {
+  width: 1.04rem;
+  height: 1.0933rem;
+}
+.footer .item span {
+  font-size: 0.5867rem;
+  color: #666666;
+  margin-top: 0.2667rem;
+}
